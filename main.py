@@ -177,7 +177,7 @@ def create_sidebar():
         st.title("💰 SplitWise AI ")
         
         # Navigation
-        st.subheader("Nevigation \n")
+        st.subheader("Navigation \n")
 
         if st.button("➕ Add Expense", use_container_width=True):
             st.session_state.tab = "Add Expense"
