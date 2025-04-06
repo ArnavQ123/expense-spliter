@@ -174,10 +174,11 @@ def get_ai_summary():
 def create_sidebar():
     """Create sidebar with options"""
     with st.sidebar:
-        st.title("💰 SplitWise AI")
+        st.title("💰 SplitWise AI ")
         
         # Navigation
-        st.subheader("Navigation")
+        st.subheader("Nevigation \n")
+
         if st.button("➕ Add Expense", use_container_width=True):
             st.session_state.tab = "Add Expense"
         if st.button("📊 View Expenses", use_container_width=True):
@@ -206,8 +207,10 @@ def create_sidebar():
         
         # App info
         st.divider()
-        st.caption("SplitWise AI - Version 1.0")
-        st.caption("Powered by On-Demand API")
+        st.subheader("project by ")
+        st.caption("Arnav (12308643) ")
+        st.caption("yusuf (12305692) ")
+        st.caption("Ashmit (12313815)")
 
 def render_add_expense():
     """Render the add expense form"""
